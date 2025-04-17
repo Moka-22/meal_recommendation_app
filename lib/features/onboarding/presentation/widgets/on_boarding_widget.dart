@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:meals_recommendation/core/app_routes/routes.dart';
 import 'package:meals_recommendation/core/utils/app_strings.dart';
 import 'package:meals_recommendation/features/onboarding/presentation/widgets/dot_indicator_widget.dart';
 import 'package:meals_recommendation/features/onboarding/presentation/widgets/on_boarding_page_view.dart';
@@ -40,8 +42,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
         curve: Curves.easeInOut,
       );
     } else {
-      // Navigate to main app screen
-      // Navigator.pushReplacement(...);
+      GoRouter.of(context).go(Routes.signUpView);
     }
   }
 
@@ -52,8 +53,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
         curve: Curves.easeInOut,
       );
     } else {
-      // Skip to main screen
-      // Navigator.pushReplacement(...);
+      GoRouter.of(context).go(Routes.signInView);
     }
   }
 
@@ -106,6 +106,3 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
     );
   }
 }
-
-
-

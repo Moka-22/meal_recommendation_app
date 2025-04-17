@@ -19,6 +19,7 @@ abstract class AppString {
   static const String fullNameHint = "Full Name";
   static const String phoneHint = "Phone";
   static const String forgetPassText = "Forgot password?";
+  static const String resendOtpText = "Resend OTP";
   static const String continueWithText = "Or continue with";
   static const String checkEmailText = "Check your email";
   static const String passRecoveryText = "Password recovery";
