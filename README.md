@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ## 🍔 Meals Recommendation Ai APP
 Meals App is a smart AI-powered meal assistant that helps users discover meal recommendations, cook step-by-step recipes, and save their cooking progress. The app integrates AI to provide personalized meal suggestions and streamline the cooking experience. 🍳✨
+=======
+Meals App is a smart AI-powered meal assistant that helps users discover meal recommendations, cook step-by-step recipes, and save their cooking progress. The app integrates AI to provide personalized meal suggestions and streamline the cooking experience.
+>>>>>>> b72b6751d3bc51b788bcbda3db501f5d8351cf92
 
 ## 🚀 Features
 - 🤖 **AI Meal Recommendations**: Get personalized meal suggestions powered by AI.
