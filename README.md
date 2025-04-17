@@ -1,4 +1,5 @@
 Meals App 
+------------------------------
 Meals App is a smart AI-powered meal assistant that helps users discover meal recommendations, cook step-by-step recipes, and save their cooking progress. The app integrates AI to provide personalized meal suggestions and streamline the cooking experience. 🍳✨
 
 ## 🚀 Features
